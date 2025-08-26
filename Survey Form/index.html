@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title> A Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title"> Survey Form</h1>
+    <p id="description">Please complete this Survey Form to help us serve you better</p>
+<hr>
+
+    <form id="survey-form">
+      <fieldset>
+        <legend class="bio">Your bio data:</legend>
+      <label id="name-label">Name: <input type="text" id="name" placeholder="Enter your name here" required/></label>
+      <label id="email-label">Email: <input type="email" id="email" id="email-label" placeholder="Enter your mail" required/></label>
+      <label id="number-label">Age: <input type="number" id="number" min="18" max="60" placeholder="Enter your age"/></label>
+      <label> What is your qualification: <select type="text" id="dropdown"  > 
+        <option>Graduate</option>
+        <option>Undergraduate</option>
+        <option>O'Level</option>
+</select></label>
+<legend>Gender:</legend>
+<label 
+> <input type="radio" name="gender" Value="male"/>Male</label>
+<label ><input type="radio" name="gender" Value="female"/>Female</label>
+<label><input type="radio" name="gender" Value="others"/>Others</label>
+</fieldset>
+<fieldset class="legend">
+  <legend>What programing language (s) are you interested in learning?</legend>
+<label><input type="checkbox" value="python" name="Programing-language" class="programing"/> Python</label>
+<label><input type="checkbox" value="html" name="Programing-language" class="programing"/>HTML</label>
+<label><input type="checkbox" value="css" name="Programing-language" class="programing"/>CSS</label>
+<label><input type="checkbox" value="sql" name="Programing-language" class="programing"/>SQL</label>
+<label><input type="checkbox" value="fortran" name="Programing-language" class="programing"/>Fortran</label>
+<label><input type="checkbox" value="javascript" name="Programing-language" class="programing"/>Javascript</label>
+<label><input type="checkbox" value="c#" name="Programing-language"class="programing"/>C#</label>
+<label> Why the progaming language (s) above? (100 Characters):<textarea type="text" name="sop" placeholder= " Write or paste your SOP here" name="statement-of-purpose" rows="5"></textarea></label>
+</fieldset>
+
+ <input type="submit" id="submit" name="submitButton" class="form-submision"/>
+
+    </form>
+  </body>
+</html>

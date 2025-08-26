@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>J&C Smart Collection</title>
+</head>
+<body>
+  
+  <main class="all-items">
+    <section>
+      <header id="header">
+        <img src="https://img.freepik.com/free-vector/elegant-circle-logo-icon_126523-971.jpg" 
+             alt="J&C Business Logo" width="200" height="200" id="header-img">
+        <nav id="nav-bar">
+          <ul>
+            <li><a href="#shoe_shelve">Shoe Section</a></li>
+            <li><a href="#cloth_shelve" class="nav-link">Clothes Section</a></li>
+            <li><a href="#bicycle_section" class="nav-link">Bicycle Section</a></li>       
+            <li><a href="#prices" class="nav-link">Check Our Prices</a></li>
+          </ul>
+        </nav>
+      </header>
+    </section>
+  
+    <section class="form">
+      <form action="https://www.freecodecamp.com/email-submit" method="POST" id="form">
+        <h1 class="welcome">Welcome to J&C Smart Collection</h1>
+        <p class="login">
+          <label for="email">E-mail: 
+            <input type="email" id="email" placeholder="Type your mail here" required name="email">
+          </label>
+        </p>
+        <p class="login">
+          <label for="password">Password: 
+            <input type="password" id="password" placeholder="......">
+          </label>
+        </p>
+        <input type="submit" id="submit" value="Submit">
+      </form>
+    </section>
+  
+    <section class="shop_video">
+      <h2>What we expect our shop to look like in the nearest future</h2>
+      <iframe width="660" height="371" src="https://www.youtube.com/embed/X7TkzLbAFVU" 
+              title="Cheapest Kids Boutique Clothing Vendor 2021" 
+              frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+              gyroscope; picture-in-picture; web-share" allowfullscreen id="video"></iframe>
+    </section>
+  
+    <section>
+      <figure class="images">
+        <h3>Check this section for your Shoes of Various Sizes</h3>
+        <img src="https://thumbs.dreamstime.com/z/kids-shoes-footwear-sale-street-market-assorted-pile-99006030.jpg" 
+             alt="Our Shoe Section" id="shoe_shelve">
+        
+        <h3>Check this section for Clothes of Various Sizes and Types</h3>
+        <img src="https://img.freepik.com/premium-photo/top-view-baby-girl-clothes-yellow-background_93675-115705.jpg" 
+             alt="Our Clothes Section" id="cloth_shelve">
+        
+        <h3>Check our Home of Quality Bicycles</h3>
+        <img src="https://thumbs.dreamstime.com/z/kids-bicycle-parking-playground-57690264.jpg" 
+             alt="Our Bicycle Section" id="bicycle_section">
+      </figure>
+    </section>
+  
+    <section id="prices">
+      <div id="shoe_prices">
+        <h2>Our Shoes Price Range</h2>
+        <p>Depending on the size, our shoes range from <strong>$6 - $20</strong></p>
+      </div>
+      <div id="cloth_prices">
+        <h2>Our Clothes Price Range</h2>
+        <p>Depending on the type and size, our clothes range from <strong>$5 - $15</strong></p>
+      </div>
+      <div id="bicycle_prices">
+        <h2>Our Bicycle Price Range</h2>
+        <p>Depending on the size, our bicycles range from <strong>$50 - $60</strong></p>
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; David04 </p>
+  </footer>
+</body>
+</html>

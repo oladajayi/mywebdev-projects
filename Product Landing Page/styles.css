@@ -1,0 +1,146 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* HEADER */
+#header {
+  display: flex;
+  justify-content: space-between; /* Logo on left, nav on right */
+  align-items: center;
+  padding: 10px 20px;
+  background: #333;
+  color: white;
+}
+
+#header img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* NAVIGATION */
+#nav-bar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+#nav-bar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+#nav-bar a:hover {
+  color: #ff9800;
+}
+
+/* FORM */
+.welcome{
+    background-color: rgb(13, 59, 59);
+    border-radius: .7rem;
+    color: #f2cfcf;
+    margin-bottom: 1rem;
+}
+.form {
+  background: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.form input[type="email"],
+.form input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#submit {
+  background: #333;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#submit:hover {
+  background: #ff9800;
+}
+
+/* VIDEO SECTION */
+.shop_video {
+  text-align: center;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.shop_video iframe {
+  width: 100%;
+  max-width: 660px;
+  height: 371px;
+  border-radius: 10px;
+}
+
+/* IMAGES */
+.images {
+  text-align: center;
+  margin: 30px auto;
+}
+
+.images img {
+  max-width: 400px;   /* Limit width */
+  width: 100%;        /* Still responsive */
+  height: auto;
+  margin: 20px auto;  /* Center the images */
+  display: block;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+
+/* PRICES */
+#prices {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background: #fafafa;
+  padding: 30px;
+  margin-top: 20px;
+}
+
+#prices div {
+  flex: 1 1 250px;
+  margin: 10px;
+  padding: 15px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #333;
+  color: white;
+  margin-top: 20px;
+}
